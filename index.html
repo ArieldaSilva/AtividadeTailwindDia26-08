@@ -9,11 +9,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
+<body class="font-sans">
     <header class="bg-gray-500">
-        <div class="lg:flex text-center items-center px-4">
-            <img class="w-5/6	" src="logo-vista-verde.png" alt="Logo da empresa Vista Verde">
-            <nav class="text-center">
+        <div class="lg:flex items-center px-4 py-2">
+            <img class="w-5/6" src="logo-vista-verde.png" alt="Logo da empresa Vista Verde">
+            <nav>
                 <ul class="flex text-center m-0 p-0 grow justify-center gap-12">
                     <li class="mb-8"><a class="text-white" href="index.html">HOME</a></li>
                     <li class="mb-8"><a class="text-white" href="sobre.html">SOBRE</a></li>
@@ -22,65 +22,64 @@
             </nav>
         </div>
     </header>
+
     <section>
         <div class="w-full content-center h-screen bg-[url('banner.jpg')] text-center bg-no-repeat bg-cover bg-center opacity-50">
             <div class="mx-14 my-20">
                 <h1 class="text-white text-5xl lg:text-8xl">Beleza Natural em Seu Espaço</h1>
                 <div class="mt-14">
-                    <a href="index.html" class="fundoAzul letraBranca texto7 font1rem" id="button">Descubra Mais</a>
+                    <a href="index.html" class="bg-neutral-800 text-white no-underline py-3.5 px-5 text-base whitespace-nowrap lg:py-10 lg:text-5xl">Descubra Mais</a>
                 </div>
             </div>
         </div>
     </section>
+
     <section class="mx-14 my-20">
-        <div class="espacamento1 lg:flex items-center">
-            <img class="widht100" src="vista-verde.jpg" alt="Loja da Vista Verde Plantas Ornamentais.">
-            <p class="texto2">A Vista Verde é especialista em trazer vida aos ambientes através de plantas
-                ornamentais selecionadas. Com mais de 20 anos de experiência, oferecemos soluções
-                verdes personalizadas para lares e escritórios. Conecte-se com a natureza onde você
-                estiver.</p>
+        <div class="flex flex-col lg:flex-row items-center gap-10">
+            <img class="w-full lg:w-1/2" src="vista-verde.jpg" alt="Loja da Vista Verde Plantas Ornamentais.">
+            <p class="text-2xl lg:text-3xl text-gray-700">A Vista Verde é especialista em trazer vida aos ambientes através de plantas ornamentais selecionadas. Com mais de 20 anos de experiência, oferecemos soluções verdes personalizadas para lares e escritórios. Conecte-se com a natureza onde você estiver.</p>
         </div>
     </section>
+
     <section class="mx-14 my-20">
-        <h1 class="espacamento1 titulo1">Produtos</h1>
-        <div class="lg:flex spaceBetween">
-            <div>
-                <img class="widht100 widht90Desktop" src="ficus-capa.jpg" alt="Planta Ficus">
-                <h2>Ficus Lyrata</h2>
-                <div class="espacamento2" id="cta">
-                    <a href="ficusLyrata.html" class="fundoAzul letraBranca texto7 font1rem" id="button">SAIBA MAIS</a>
+        <h1 class="text-3xl lg:text-5xl mb-10">Produtos</h1>
+        <div class="flex flex-wrap gap-10 justify-between">
+            <div class="flex flex-col items-center">
+                <img class="w-full lg:w-1/2" src="ficus-capa.jpg" alt="Planta Ficus">
+                <h2 class="mt-4 text-xl">Ficus Lyrata</h2>
+                <div class="mt-6">
+                    <a href="ficusLyrata.html" class="bg-neutral-800 text-white no-underline py-3.5 px-5 text-base whitespace-nowrap">SAIBA MAIS</a>
                 </div>
             </div>
-            <div>
-                <img class="widht100 widht90Desktop" src="areca-capa.jpg" alt="Planta Areca">
-                <h2>Areca Palmeira</h2>
-                <div class="espacamento2" id="cta">
-                    <a href="arecaPalmeira.html" class="fundoAzul letraBranca texto7 font1rem" id="button">SAIBA MAIS</a>
+            <div class="flex flex-col items-center">
+                <img class="w-full lg:w-1/2" src="areca-capa.jpg" alt="Planta Areca">
+                <h2 class="mt-4 text-xl">Areca Palmeira</h2>
+                <div class="mt-6">
+                    <a href="arecaPalmeira.html" class="bg-neutral-800 text-white no-underline py-3.5 px-5 text-base whitespace-nowrap">SAIBA MAIS</a>
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <img class="w-full lg:w-1/2" src="espada-capa.jpg" alt="Planta Espada de São Jorge">
+                <h2 class="mt-4 text-xl">Espada de São Jorge</h2>
+                <div class="mt-6">
+                    <a href="espadaSaoJorge.html" class="bg-neutral-800 text-white no-underline py-3.5 px-5 text-base whitespace-nowrap">SAIBA MAIS</a>
+                </div>
+            </div>
+            <div class="flex flex-col items-center">
+                <img class="w-full lg:w-1/2" src="phalaenopsis-capa.jpg" alt="Planta orquídea">
+                <h2 class="mt-4 text-xl">Orquídea Phalaenopsis</h2>
+                <div class="mt-6">
+                    <a href="orquidea.html" class="bg-neutral-800 text-white no-underline py-3.5 px-5 text-base whitespace-nowrap">SAIBA MAIS</a>
                 </div>
             </div>
         </div>
-        <div class="lg:flex spaceBetween">
-            <div>
-                <img class="widht100 widht90Desktop" src="espada-capa.jpg" alt="Planta Espada de São Jorge">
-                <h2>Espada de São Jorge</h2>
-                <div class="espacamento2" id="cta">
-                    <a href="espadaSaoJorge.html" class="fundoAzul letraBranca texto7 font1rem" id="button">SAIBA MAIS</a>
-                </div>
-            </div>
-            <div>
-                <img class="widht100 widht90Desktop" src="phalaenopsis-capa.jpg" alt="Planta orquídea">
-                <h2>Orquídea Phalaenopsis</h2>
-                <div class="espacamento2" id="cta">
-                    <a href="orquidea.html" class="fundoAzul letraBranca texto7 font1rem" id="button">SAIBA MAIS</a>
-                </div>
-            </div>
-        </div>
-        <div class="text-center espacamento2" id="cta">
-            <a href="produtos.html" class="fundoAzul letraBranca texto7 font1rem" id="button">Conheça Nossos Produtos</a>
+        <div class="text-center mt-14">
+            <a href="produtos.html" class="bg-neutral-800 text-white no-underline py-3.5 px-5 text-base whitespace-nowrap">Conheça Nossos Produtos</a>
         </div>
     </section>
-    <footer class="fundoCinza">
-        <p class="letraBranca text-center espacamento3">Vista Verde - 2024 - Todos os direitos reservados</p>
+
+    <footer class="bg-gray-800 py-8">
+        <p class="text-white text-center">Vista Verde - 2024 - Todos os direitos reservados</p>
     </footer>
 </body>
 

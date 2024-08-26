@@ -25,13 +25,6 @@ a{
 .espacamento4{
     padding: 0 5%;
 }
-.secao{
-    margin: 10% 7% 10% 7%;
-}
-#texto1{
-    color: white;
-    font-size: 3rem;
-}
 
 .espacamento1{
     margin: 15% 0;
@@ -42,21 +35,6 @@ a{
 }
 .espacamento3{
     padding: 10%;
-}
-.imgBanner #cta{
-    margin-top: 10%;
-}
-.cta #button {
-    text-decoration: none;
-    padding: 0.875rem 1.25rem;
-    font-size: 1rem;
-    white-space: nowrap;
-}
-.fundoAzul {
-    background-color: rgb(41, 40, 40);
-}
-.letraBranca {
-    color: white;
 }
 
 @media (min-width: 768px) {
@@ -91,8 +69,5 @@ a{
     #imgBanner #cta #button {
         padding: 2.5rem 3.75rem;
         font-size: 3rem;
-    }
-    #texto1{
-        font-size: 7rem;
     }
 }

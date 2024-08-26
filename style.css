@@ -1,0 +1,98 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.desktop {
+    display: none;
+}
+
+.mobile {
+    display: flex;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+.widht100{
+    width: 100%;
+}
+.espacamento4{
+    padding: 0 5%;
+}
+.secao{
+    margin: 10% 7% 10% 7%;
+}
+#texto1{
+    color: white;
+    font-size: 3rem;
+}
+
+.espacamento1{
+    margin: 15% 0;
+    gap: 10%;
+}
+.espacamento2{
+    margin-bottom: 3.5rem;
+}
+.espacamento3{
+    padding: 10%;
+}
+.imgBanner #cta{
+    margin-top: 10%;
+}
+.cta #button {
+    text-decoration: none;
+    padding: 0.875rem 1.25rem;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+.fundoAzul {
+    background-color: rgb(41, 40, 40);
+}
+.letraBranca {
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .desktop {
+        display: flex;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .widht100{
+        width: 40%;
+    }
+    .widht90Desktop{
+        width: 90%;
+    }
+    .widht25Desktop{
+        width: 25%;
+        margin: 0;
+    }
+
+    .texto2{
+        font-size: 2rem;
+    }
+    .titulo1{
+        font-size: 3rem;
+    }
+    .espacamento2{
+        margin-top: 3.5rem;
+    }
+    #imgBanner #cta #button {
+        padding: 2.5rem 3.75rem;
+        font-size: 3rem;
+    }
+    #texto1{
+        font-size: 7rem;
+    }
+}
